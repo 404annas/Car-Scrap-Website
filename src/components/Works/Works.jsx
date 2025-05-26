@@ -12,7 +12,7 @@ const Works = () => {
               alt="Scrap Car"
               className="w-20 absolute -top-10"
             />
-            <h2 className="text-3xl text-gray-700 font-bold mb-2 text-center tagg">
+            <h2 className="text-3xl text-[#76B82A] font-bold mb-2 text-center tagg">
               Scrap a car near you
             </h2>
             <p className="text-gray-600 font-medium text-center sand">
@@ -28,7 +28,7 @@ const Works = () => {
               alt="How it works"
               className="w-20 absolute -top-10"
             />
-            <h2 className="text-3xl text-gray-700 font-bold mb-2 text-center tagg">
+            <h2 className="text-3xl text-[#76B82A] font-bold mb-2 text-center tagg">
               How it works?
             </h2>
             <p className="text-gray-600 font-medium text-center sand">
@@ -44,7 +44,7 @@ const Works = () => {
               alt="UK wide service"
               className="w-20 absolute -top-10"
             />
-            <h2 className="text-3xl text-gray-700 font-bold mb-2 text-center tagg">
+            <h2 className="text-3xl text-[#76B82A] font-bold mb-2 text-center tagg">
               UK wide service
             </h2>
             <p className="text-gray-600 font-medium text-center sand">
