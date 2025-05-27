@@ -4,7 +4,7 @@ import { FaCoins, FaVideo, FaUser } from "react-icons/fa";
 const NavbarAno = () => {
   return (
     <>
-      <nav className="p-4 mx-8">
+      <nav className="p-3 px-20 fixed top-0 left-0 w-full z-50 bg-white">
         <div className="flex items-center justify-between">
           <img
             className="w-36"
@@ -37,10 +37,9 @@ const NavbarAno = () => {
       </nav>
 
       {/* Bottom Info Bar */}
-      <div className="bg-[#009CBC] p-2">
+      <div className="bg-[#009CBC] p-2 lg:block hidden mt-20">
         <div className="flex items-center justify-center gap-2">
-          <FaUser size={14} className="text-white" />{" "}
-          {/* Replaced 'A' with person icon */}
+          <FaUser size={14} className="text-white" />
           <p className="sand font-semibold text-white">
             Buyers available 7 days from 8:30am - 5.00pm
           </p>

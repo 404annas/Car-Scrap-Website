@@ -11,7 +11,7 @@ import Works from "./Works/Works";
 const CarScrapWeb = () => {
   return (
     <div>
-      <NavbarAno />
+      {/* <NavbarAno /> */}
       <HeroAno />
       <Works />
       <Steps />
