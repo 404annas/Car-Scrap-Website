@@ -56,14 +56,14 @@ const NavbarAno = () => {
         }`}
       >
         <div className="flex justify-between items-center p-4 border-b">
-          <h2 className="text-base sm:text-lg font-bold tagg">Salvage</h2>
+          <h2 className="text-lg sm:text-lg font-bold tagg">Salvage</h2>
           <button onClick={() => setIsOpen(false)}>
             <HiX size={20} className="text-gray-600" />
           </button>
         </div>
 
         {/* Responsive Menu Items */}
-        <div className="flex flex-col gap-5 p-6 sand font-medium text-xs sm:text-md">
+        <div className="flex flex-col gap-5 p-6 sand font-medium text-sm sm:text-md">
           <p className="cursor-pointer text-[#76B82A]">Cash for cars</p>
           <hr />
           <p className="cursor-pointer hover:text-[#76B82A] transition-all">
