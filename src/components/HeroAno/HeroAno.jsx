@@ -5,7 +5,7 @@ import { FaCoins, FaVideo } from "react-icons/fa";
 const HeroAno = () => {
   return (
     <section
-      className="relative w-full min-h-screen bg-cover bg-center flex items-center justify-center px-4 sm:px-6 lg:px-12"
+      className="relative w-full min-h-screen bg-cover bg-center flex items-center justify-center md:mt-0 mt-12 px-4 sm:px-6 lg:px-12"
       style={{
         backgroundImage: `url('https://www.cartakebackaust.com/wp-content/themes/cartakeback/images/home-hero-bg.svg')`,
       }}

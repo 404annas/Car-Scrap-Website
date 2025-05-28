@@ -1,4 +1,3 @@
-import React from "react";
 // import Navbar from './Navbar/Navbar'
 // import Hero from './Hero/Hero'
 import Steps from "./Steps/Steps";
@@ -11,7 +10,7 @@ import Works from "./Works/Works";
 const CarScrapWeb = () => {
   return (
     <div>
-      {/* <NavbarAno /> */}
+      <NavbarAno />
       <HeroAno />
       <Works />
       <Steps />
