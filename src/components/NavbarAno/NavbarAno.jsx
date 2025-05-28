@@ -1,9 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaCoins, FaVideo, FaUser } from "react-icons/fa";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 
 const NavbarAno = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+  if (isOpen) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
+
+  // Clean up on component unmount
+  return () => {
+    document.body.classList.remove("overflow-hidden");
+  };
+}, [isOpen]);
 
   return (
     <>
