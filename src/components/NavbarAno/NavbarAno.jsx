@@ -6,17 +6,17 @@ const NavbarAno = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-  if (isOpen) {
-    document.body.classList.add("overflow-hidden");
-  } else {
-    document.body.classList.remove("overflow-hidden");
-  }
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
 
-  // Clean up on component unmount
-  return () => {
-    document.body.classList.remove("overflow-hidden");
-  };
-}, [isOpen]);
+    // Clean up on component unmount
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isOpen]);
 
   return (
     <>
@@ -30,7 +30,7 @@ const NavbarAno = () => {
           />
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-6 tagg text-lg">
+          <div className="hidden lg:flex items-center gap-6 sand font-bold text-lg">
             <p className="cursor-pointer text-[#76B82A]">Cash for cars</p>
             <p className="cursor-pointer hover:text-[#76B82A] transition-all">
               Vehicles we buy

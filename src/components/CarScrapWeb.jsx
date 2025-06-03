@@ -1,20 +1,26 @@
-// import Navbar from './Navbar/Navbar'
-// import Hero from './Hero/Hero'
+// import Navbar from './Navbar/Navbar';
+import Hero from './Hero/Hero';
 import Steps from "./Steps/Steps";
 import Footer from "./Footer/Footer";
 import GetPrice from "./GetPrice/GetPrice";
 import NavbarAno from "./NavbarAno/NavbarAno";
-import HeroAno from "./HeroAno/HeroAno";
+// import HeroAno from "./HeroAno/HeroAno";
 import Works from "./Works/Works";
+import Brands from "./Brands/Brands";
+import Faqs from "./Faqs/Faqs";
+import Contact from "./Contact/Contact"
 
 const CarScrapWeb = () => {
   return (
     <div>
       <NavbarAno />
-      <HeroAno />
+      <Hero />
       <Works />
       <Steps />
+      <Brands />
+      <Faqs />
       <GetPrice />
+      <Contact />
       <Footer />
     </div>
   );

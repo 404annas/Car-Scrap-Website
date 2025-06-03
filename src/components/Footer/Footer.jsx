@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* Legal Links */}
         <div className="flex flex-col text-white md:w-1/4">
-          <p className="text-[#009CBC] font-extrabold mb-2 text-xl sm:text-2xl tagg">
+          <p className="text-[#009CBC] font-extrabold mb-2 text-xl sm:text-2xl sand">
             Legal
           </p>
           {["Ireland", "New Zealand", "Spain", "UK"].map((item, index) => (
@@ -63,7 +63,7 @@ const Footer = () => {
 
         {/* Global Links */}
         <div className="flex flex-col text-white md:w-1/4">
-          <p className="text-[#009CBC] font-extrabold mb-2 text-xl sm:text-2xl tagg">
+          <p className="text-[#009CBC] font-extrabold mb-2 text-xl sm:text-2xl sand">
             Global
           </p>
           {["Ireland", "New Zealand", "Spain", "UK"].map((item, index) => (

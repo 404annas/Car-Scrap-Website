@@ -1,5 +1,3 @@
-import React from "react";
-
 const Steps = () => {
   return (
     <section className="relative py-10 px-4 sm:px-6 lg:px-12">
@@ -11,7 +9,7 @@ const Steps = () => {
       />
 
       <div className="flex flex-col items-center gap-6 relative z-10">
-        <h1 className="text-[#76B82A] text-2xl sm:text-3xl tagg text-center leading-snug">
+        <h1 className="text-[#76B82A] text-2xl sm:text-3xl font-bold sand text-center leading-snug">
           Sell your scrap car for the best price
         </h1>
 
@@ -29,7 +27,7 @@ const Steps = () => {
                 alt="1"
                 className="w-4 sm:w-5 md:w-8"
               />
-              <h1 className="tagg text-lg sm:text-xl w-40 text-gray-800 font-bold">
+              <h1 className="sand text-lg sm:text-xl w-40 text-gray-800 font-bold">
                 Get an instant scrap car quote
               </h1>
             </div>
@@ -47,7 +45,7 @@ const Steps = () => {
                 alt="2"
                 className="w-10 sm:w-12 md:w-20"
               />
-              <h1 className="tagg text-lg sm:text-xl w-40 text-gray-800 font-bold">
+              <h1 className="sand text-lg sm:text-xl w-40 text-gray-800 font-bold">
                 Arrange free car collection
               </h1>
             </div>
@@ -64,7 +62,7 @@ const Steps = () => {
                 alt="3"
                 className="w-10 sm:w-12 md:w-20"
               />
-              <h1 className="tagg text-lg sm:text-xl w-40 text-gray-800 font-bold">
+              <h1 className="sand text-lg sm:text-xl w-40 text-gray-800 font-bold">
                 Get cash in your bank!
               </h1>
             </div>
@@ -91,7 +89,7 @@ const Steps = () => {
           </p>
         </div>
 
-        <p className="tagg text-[#009CBC] text-base sm:text-xl mt-6 cursor-pointer hover:underline">
+        <p className="sand text-[#009CBC] font-semibold text-base sm:text-xl mt-6 cursor-pointer hover:underline">
           More about how it works {">"}
         </p>
       </div>

@@ -6,7 +6,7 @@ const GetPrice = () => {
       <div className="flex flex-col gap-6 w-full max-w-4xl">
         {/* Heading */}
         <h1 className="sand font-extrabold text-2xl sm:text-3xl md:text-4xl text-center leading-snug">
-          Get the <span className="text-[#76B82A] tagg">best price</span> for your scrap car.
+          Get the <span className="text-[#76B82A] sand">best price</span> for your scrap car.
         </h1>
 
         {/* Form Inputs */}
