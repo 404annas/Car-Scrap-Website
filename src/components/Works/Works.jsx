@@ -32,7 +32,7 @@ const Works = () => {
               <img
                 src={card.img}
                 alt={card.title}
-                className="absolute -top-10 sm:-top-12"
+                className="absolute w-36 md:w-40 lg:w-48 -top-10 sm:-top-12"
               />
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#76B82A] mb-3 sand">
                 {card.title}

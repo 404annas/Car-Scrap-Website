@@ -14,7 +14,9 @@ const Contact = () => {
 
         {/* Description */}
         <p className="text-gray-600 mb-8 mx-auto text-sm sm:text-base md:text-lg max-w-xl px-2 sm:px-4">
-          Whether you want to buy or sell salvage vehicles, we are here to help. Get in touch and we will get back to you soon with the information you need.
+          Whether you want to buy or sell salvage vehicles, we are here to help.
+          Get in touch and we will get back to you soon with the information you
+          need.
         </p>
 
         {/* Form */}
