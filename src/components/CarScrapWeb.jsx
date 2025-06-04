@@ -9,6 +9,7 @@ import Works from "./Works/Works";
 import Brands from "./Brands/Brands";
 import Faqs from "./Faqs/Faqs";
 import Contact from "./Contact/Contact"
+import Map from "./Map/Map";
 
 const CarScrapWeb = () => {
   return (
@@ -18,6 +19,7 @@ const CarScrapWeb = () => {
       <Works />
       <Steps />
       <Brands />
+      <Map />
       <Faqs />
       <GetPrice />
       <Contact />

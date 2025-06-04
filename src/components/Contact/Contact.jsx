@@ -20,22 +20,70 @@ const Contact = () => {
         </p>
 
         {/* Form */}
-        <form className="space-y-6">
-          {/* Name, Email, Password */}
-          <div className="flex flex-col md:flex-row gap-4">
+        <form className="space-y-6 text-black">
+          {/* First Row */}
+          <div className="flex flex-col md:flex-row gap-4 text-black">
             <input
               type="text"
-              placeholder="Name"
+              required
+              placeholder="Car Make"
               className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <input
+              type="text"
+              required
+              placeholder="Car Model"
+              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+
+          {/* Second Row */}
+          <div className="flex flex-col md:flex-row gap-4">
+            <input
+              type="text"
+              required
+              placeholder="Year of Maintenance"
+              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+            <input
+              type="text"
+              required
+              placeholder="Suburb"
+              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+
+          {/* Third Row */}
+          <div className="flex flex-col md:flex-row gap-4">
+            <input
               type="email"
+              required
               placeholder="Email"
               className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <input
-              type="password"
-              placeholder="Password"
+              type="text"
+              required
+              placeholder="Phone No"
+              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+
+          {/* Fourth Row */}
+          <div className="flex flex-col md:flex-row gap-4">
+            <select
+              required
+              className="w-full px-4 py-2 text-sm sm:text-base bg-white rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+              <option value="">Select Condition</option>
+              <option value="Excellent">Excellent</option>
+              <option value="Good">Good</option>
+              <option value="Poor">Poor</option>
+            </select>
+            <input
+              type="text"
+              required
+              placeholder="Expected Price"
               className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
@@ -43,6 +91,7 @@ const Contact = () => {
           {/* Textarea */}
           <textarea
             rows="5"
+            required
             placeholder="Your Message"
             className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
           ></textarea>
