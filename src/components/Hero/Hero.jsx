@@ -11,7 +11,11 @@ const Hero = () => {
           </h2>
 
           <div className="flex flex-col gap-3 sand">
-            {["Get a price", "Sign digital paperwork", "Get paid & we pick up"].map((step, index) => (
+            {[
+              "Get a price",
+              "Sign digital paperwork",
+              "Get paid & we pick up",
+            ].map((step, index) => (
               <div className="flex items-center gap-3" key={index}>
                 <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#009CBC] text-white font-bold text-sm">
                   {index + 1}
@@ -22,7 +26,9 @@ const Hero = () => {
           </div>
 
           <p className="text-sm mt-2 sand">
-            We make selling your scrap car easy, quick, and stress-free. With top prices and same-day pickup, you're just one step away from cash in hand!
+            We make selling your scrap car easy, quick, and stress-free. With
+            top prices and same-day pickup, you're just one step away from cash
+            in hand!
           </p>
 
           <div className="flex flex-col gap-3 mt-2">
@@ -43,7 +49,8 @@ const Hero = () => {
             Looking to scrap your car?
           </h1>
           <p className="text-gray-700 sand mt-4">
-            Simply enter your car details and postcode to see how much you can get for your scrap car!
+            Simply enter your car details and postcode to see how much you can
+            get for your scrap car!
           </p>
           <button
             className="sand font-bold bg-[#009CBC] hover:bg-[#32a4bb] transition-all px-6 py-3 mt-6 rounded-lg text-white w-full max-w-xs mx-auto"

@@ -24,32 +24,28 @@ const Contact = () => {
           {/* First Row */}
           <div className="flex flex-col md:flex-row gap-4 text-black">
             <input
-              type="text"
-              required
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Car Make"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              type="text"
             />
             <input
-              type="text"
-              required
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Car Model"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              type="text"
             />
           </div>
 
           {/* Second Row */}
           <div className="flex flex-col md:flex-row gap-4">
             <input
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              placeholder="Year Of Maintainance"
               type="text"
-              required
-              placeholder="Year of Maintenance"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <input
-              type="text"
-              required
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Suburb"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              type="text"
             />
           </div>
 
@@ -59,13 +55,13 @@ const Contact = () => {
               type="email"
               required
               placeholder="Email"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base  font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <input
               type="text"
               required
               placeholder="Phone No"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base  font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
@@ -73,7 +69,7 @@ const Contact = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <select
               required
-              className="w-full px-4 py-2 text-sm sm:text-base bg-white rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base  font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               <option value="">Select Condition</option>
               <option value="Excellent">Excellent</option>
@@ -84,7 +80,7 @@ const Contact = () => {
               type="text"
               required
               placeholder="Expected Price"
-              className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
@@ -93,7 +89,7 @@ const Contact = () => {
             rows="5"
             required
             placeholder="Your Message"
-            className="w-full px-4 py-2 text-sm sm:text-base rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
+            className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
           ></textarea>
 
           {/* Button */}
