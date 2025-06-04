@@ -12,7 +12,7 @@ const Map = () => {
       <img
         src={MapImage}
         alt="City Map"
-        className="w-[90%] sm:w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] object-cover"
+        className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] object-cover px-2"
       />
     </section>
   );
