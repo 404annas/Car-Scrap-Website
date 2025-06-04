@@ -2,8 +2,8 @@ import { FaCoins, FaVideo } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-[499px] mt-16 lg:mt-0 bg-[#EEFAFC] flex items-center justify-center py-10 px-4">
-      <div className="w-full max-w-7xl flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
+    <section className="relative w-full min-h-[499px] mt-16 lg:mt-0 bg-[#EEFAFC] flex items-center justify-center py-10 lg:pl-4 pl-0">
+      <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
         {/* Left Card */}
         <div className="bg-white/90 text-black p-6 rounded-lg w-full max-w-md shadow-xl flex flex-col gap-4">
           <h2 className="text-xl lg:text-2xl font-bold sand">
@@ -62,7 +62,7 @@ const Hero = () => {
         <img
           src="https://www.cartakebackaust.com/wp-content/uploads/2023/10/illustration-right-au.svg"
           alt="Right Illustration"
-          className="w-full max-w-sm object-contain"
+          className="w-full max-w-md lg:max-w-lg object-contain"
         />
       </div>
     </section>
