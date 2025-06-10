@@ -27,11 +27,13 @@ const Contact = () => {
               className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Car Make"
               type="text"
+              required
             />
             <input
               className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Car Model"
               type="text"
+              required
             />
           </div>
 
@@ -41,11 +43,13 @@ const Contact = () => {
               className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Year Of Maintainance"
               type="text"
+              required
             />
             <input
               className="bg-transparent sand text-center outline-none text-sm sm:text-base font-medium w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               placeholder="Suburb"
               type="text"
+              required
             />
           </div>
 
