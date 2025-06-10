@@ -2,7 +2,7 @@
 import Hero from './Hero/Hero';
 import Steps from "./Steps/Steps";
 import Footer from "./Footer/Footer";
-import GetPrice from "./GetPrice/GetPrice";
+// import GetPrice from "./GetPrice/GetPrice";
 import NavbarAno from "./NavbarAno/NavbarAno";
 // import HeroAno from "./HeroAno/HeroAno";
 import Works from "./Works/Works";
@@ -21,7 +21,7 @@ const CarScrapWeb = () => {
       <Brands />
       <Map />
       <Faqs />
-      <GetPrice />
+      {/* <GetPrice /> */}
       <Contact />
       <Footer />
     </div>

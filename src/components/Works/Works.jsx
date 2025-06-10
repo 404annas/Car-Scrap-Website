@@ -21,7 +21,7 @@ const Works = () => {
             },
             {
               img: WorkPic3,
-              title: "UK wide service",
+              title: "SYDNEY wide service",
               desc: "We offer free collection of Scrap cars throughout the UK. Get the best priced instant quote in your area.",
             },
           ].map((card, index) => (

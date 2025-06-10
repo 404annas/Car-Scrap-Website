@@ -32,10 +32,12 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-3 mt-2">
-            <button className="bg-[#76B82A] hover:bg-[#6ba727] hover:-translate-y-1 transition-all duration-300 rounded-lg flex gap-2 items-center justify-center text-white py-3 sand text-sm font-semibold">
-              <FaCoins size={16} />
-              Get a price
-            </button>
+            <a href="#touch">
+              <button className="bg-[#76B82A] hover:bg-[#6ba727] w-full hover:-translate-y-1 transition-all duration-300 rounded-lg flex gap-2 items-center justify-center text-white py-3 sand text-sm font-semibold">
+                <FaCoins size={16} />
+                Get a price
+              </button>
+            </a>
             <button className="bg-[#009CBC] hover:bg-[#007da3] hover:-translate-y-1 transition-all duration-300 rounded-lg flex gap-2 items-center justify-center sand text-white py-3 sand text-sm font-semibold">
               <FaVideo size={16} />
               See how it works?

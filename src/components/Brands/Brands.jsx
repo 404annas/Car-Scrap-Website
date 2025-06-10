@@ -100,7 +100,7 @@ const brandImages = [
 
 const Brands = () => {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-[#EEFAFC] py-10">
       {/* Text Section */}
       <div className="flex flex-col justify-center items-center gap-3 px-4 sand">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-[#76B82A]">
@@ -120,7 +120,7 @@ const Brands = () => {
             <img
               src={brand}
               alt={`Brand ${index + 1}`}
-              className="w-full max-w-[250px] object-contain border border-gray-200 p-2 rounded-md cursor-pointer hover:opacity-80 transition-all duration-200"
+              className="w-full max-w-[250px] object-contain border border-[#4db5c7] p-2 rounded-md cursor-pointer hover:opacity-80 transition-all duration-200"
             />
           </div>
         ))}
