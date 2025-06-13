@@ -2,7 +2,7 @@ import { FiMessageCircle } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <section className="relative overflow-hidden bg-white py-16 px-4 sand touch">
+    <section id="touch" className="relative bg-white py-16 px-4 sand">
       <div className="max-w-5xl mx-auto bg-gray-100 rounded-xl shadow-md p-6 sm:p-8 md:p-10 text-center relative">
         {/* Icon */}
         <FiMessageCircle className="text-4xl sm:text-5xl text-blue-500 mx-auto mb-4" />
