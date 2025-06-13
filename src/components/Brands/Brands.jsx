@@ -42,7 +42,7 @@ const Brands = () => {
             <img
               src={brand}
               alt={`Brand ${index + 1}`}
-              className="w-[70px] max-w-[100px] object-contain cursor-pointer hover:opacity-80 transition-all duration-200"
+              className="w-[70px] md:w-[80px] max-w-[100px] object-contain cursor-pointer hover:opacity-80 transition-all duration-200"
             />
           </div>
         ))}
