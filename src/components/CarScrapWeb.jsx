@@ -1,5 +1,5 @@
 // import Navbar from './Navbar/Navbar';
-import Hero from './Hero/Hero';
+import Hero from "./Hero/Hero";
 import Steps from "./Steps/Steps";
 import Footer from "./Footer/Footer";
 // import GetPrice from "./GetPrice/GetPrice";
@@ -8,16 +8,18 @@ import NavbarAno from "./NavbarAno/NavbarAno";
 import Works from "./Works/Works";
 import Brands from "./Brands/Brands";
 import Faqs from "./Faqs/Faqs";
-import Contact from "./Contact/Contact"
+import Contact from "./Contact/Contact";
 import Map from "./Map/Map";
-import Cards from './Cards/Cards';
+import Cards from "./Cards/Cards";
+import { CustomSection, Footernew } from "./components";
 
 const CarScrapWeb = () => {
   return (
     <div>
       <NavbarAno />
       <Hero />
-      <Works />
+      <CustomSection />
+      {/* <Works /> */}
       <Steps />
       <Brands />
       <Map />
@@ -25,7 +27,8 @@ const CarScrapWeb = () => {
       <Faqs />
       {/* <GetPrice /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
+      <Footernew />
     </div>
   );
 };

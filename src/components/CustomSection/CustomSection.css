@@ -1,0 +1,15 @@
+.scroller-container {
+  height: 900px;
+  overflow-y: scroll;
+}
+
+.scroller-container {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+.scroller-container::-webkit-scrollbar {
+  display: none;
+}

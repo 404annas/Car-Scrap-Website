@@ -1,15 +1,17 @@
+import man from "../../assets/man.svg";
+
 const Steps = () => {
   return (
     <section className="relative py-10 px-4 sm:px-6 lg:px-12">
       {/* Man Image - hidden on small screens */}
       <img
-        className="w-28 sm:w-36 absolute bottom-0 left-4 hidden sm:block"
-        src="https://www.cartakebackaust.com/wp-content/uploads/2022/11/character-with-shadow.svg"
+        className="w-28 sm:w-36 absolute  bottom-0 left-4 hidden sm:block"
+        src={man}
         alt="Man"
       />
 
       <div className="flex flex-col items-center gap-6 relative z-10">
-        <h1 className="text-[#76B82A] text-2xl sm:text-3xl font-bold sand text-center leading-snug">
+        <h1 className="text-primary text-2xl sm:text-3xl font-bold sand text-center leading-snug">
           Sell your scrap car for the best price
         </h1>
 

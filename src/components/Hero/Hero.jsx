@@ -1,12 +1,13 @@
 import { FaCoins, FaVideo } from "react-icons/fa";
-import HeroImage from "../../assets/HeroImg.svg";
+import HeroImage from "../../assets/heroimg.svg";
+import rating from "../../assets/high-2.png";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-[499px] mt-16 lg:mt-0 bg-[#EEFAFC] flex items-center justify-center py-10 lg:pl-4 pl-0">
+    <section className="relative w-full min-h-[499px] mt-16 lg:mt-0 bg-white flex items-center justify-center py-10 lg:pl-4 pl-0">
       <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
         {/* Left Card */}
-        <div className="bg-white/90 text-black p-6 rounded-lg w-full max-w-md shadow-xl flex flex-col gap-4">
+        <div className="bg-white/90 text-black p-6 rounded-lg w-full max-w-sm shadow-xl flex flex-col gap-4">
           <h2 className="text-xl lg:text-2xl font-bold sand">
             Easily sell your damaged car quickly, anytime.
           </h2>
@@ -35,7 +36,7 @@ const Hero = () => {
           <div className="flex flex-col gap-3 mt-2">
             <a
               href="#touch"
-              className="bg-[#76B82A] hover:bg-[#6ba727] w-full hover:-translate-y-1 transition-all duration-300 rounded-lg flex gap-2 items-center justify-center text-white py-3 sand text-sm font-semibold"
+              className="bg-gradient-to-r from-primary to-secondary hover:bg-[#6ba727] w-full hover:-translate-y-1 transition-all duration-300 rounded-lg flex gap-2 items-center justify-center text-white py-3 sand text-sm font-semibold"
             >
               <FaCoins size={16} />
               Get a price
@@ -49,7 +50,7 @@ const Hero = () => {
 
         {/* Center Text */}
         <div className="text-center px-4 w-full max-w-md">
-          <h1 className="text-2xl lg:text-3xl font-bold mb-2 sand text-[#76B82A]">
+          <h1 className="text-2xl lg:text-3xl font-bold mb-2 sand text-primary">
             Looking to scrap your car?
           </h1>
           <p className="text-gray-700 sand mt-4">
@@ -58,22 +59,18 @@ const Hero = () => {
           </p>
           <button
             className="sand font-bold bg-[#009CBC] hover:bg-[#32a4bb] transition-all px-6 py-3 mt-6 rounded-lg text-white w-full max-w-xs mx-auto"
-            style={{ boxShadow: "5px 5px 0 #76B82A" }}
+            style={{ boxShadow: "5px 5px 0 #152C85" }}
           >
             Get Quote
           </button>
-          <img
-            className="w-24 mx-auto mt-4"
-            src="https://www.cartakebackaust.com/wp-content/themes/cartakeback/images/highly-rated-five-stars.svg"
-            alt="Rating"
-          />
+          <img className="w-24 mx-auto mt-4" src={rating} alt="Rating" />
         </div>
 
         {/* Right Image */}
         <img
           src={HeroImage}
           alt="Right Illustration"
-          className="w-full max-w-md lg:max-w-lg object-contain"
+          className="w-full max-w-md lg:max-w-2xl object-contain"
         />
       </div>
     </section>
