@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaCoins, FaVideo, FaUser } from "react-icons/fa";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 const NavbarAno = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,7 +27,7 @@ const NavbarAno = () => {
           <img className="w-28  md:w-40 h-auto" src={logo} alt="Logo" />
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-6 sand font-bold text-lg">
+          <div className="hidden lg:flex items-center gap-6 sand font-bold text-md">
             <p className="cursor-pointer text-primary">Cash for cars</p>
             <p className="cursor-pointer hover:text-primary transition-all">
               Vehicles we buy
@@ -37,6 +38,12 @@ const NavbarAno = () => {
             <p className="cursor-pointer hover:text-primary transition-all">
               Salvage valuations
             </p>
+            <Link
+              to="contact-us"
+              className="cursor-pointer hover:text-primary transition-all"
+            >
+              Contact Us
+            </Link>
           </div>
 
           {/* Desktop Buttons */}

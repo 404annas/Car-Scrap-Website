@@ -1,2 +1,11 @@
 export { default as CustomSection } from "./CustomSection/CustomSection";
 export { default as Footernew } from "./Footernew/Footernew";
+export { default as GetInTouch } from "./GetInTouch/GetInTouch";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Hero } from "./Hero/Hero";
+export { default as Steps } from "./Steps/Steps";
+export { default as Map } from "./Map/Map";
+export { default as Brands } from "./Brands/Brands";
+export { default as Cards } from "./Cards/Cards";
+export { default as Faqs } from "./Faqs/Faqs";
+export { default as NavbarAno } from "./NavbarAno/NavbarAno";

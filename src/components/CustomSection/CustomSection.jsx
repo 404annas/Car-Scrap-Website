@@ -44,15 +44,15 @@ const CustomSection = () => {
   };
 
   // Scroll to active div when activeIndex changes
-  useEffect(() => {
-    if (divRefs.current[activeIndex] && containerRef.current) {
-      divRefs.current[activeIndex].scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "center", // Ensures horizontal scrolling
-      });
-    }
-  }, [activeIndex]);
+  //   useEffect(() => {
+  //     if (divRefs.current[activeIndex] && containerRef.current) {
+  //       divRefs.current[activeIndex].scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "nearest",
+  //         inline: "center", // Ensures horizontal scrolling
+  //       });
+  //     }
+  //   }, [activeIndex]);
   const animationVariants = {
     hidden: { opacity: 0, y: 100 },
     visible: {

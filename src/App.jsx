@@ -1,10 +1,11 @@
-import CarScrapWeb from "./components/CarScrapWeb";
+import Routes from "./components/Routes";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <CarScrapWeb />
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 };
 

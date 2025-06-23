@@ -2,7 +2,6 @@
 import Hero from "./Hero/Hero";
 import Steps from "./Steps/Steps";
 import Footer from "./Footer/Footer";
-// import GetPrice from "./GetPrice/GetPrice";
 import NavbarAno from "./NavbarAno/NavbarAno";
 // import HeroAno from "./HeroAno/HeroAno";
 import Works from "./Works/Works";
@@ -11,26 +10,21 @@ import Faqs from "./Faqs/Faqs";
 import Contact from "./Contact/Contact";
 import Map from "./Map/Map";
 import Cards from "./Cards/Cards";
-import { CustomSection, Footernew } from "./components";
+import { CustomSection, Footernew, GetInTouch } from "./components";
+import { Routes as Router, Route } from "react-router-dom";
+import HomeLayout from "../Screen/HomeLayout";
 
-const CarScrapWeb = () => {
+const Routes = () => {
   return (
     <div>
       <NavbarAno />
-      <Hero />
-      <CustomSection />
-      {/* <Works /> */}
-      <Steps />
-      <Brands />
-      <Map />
-      <Cards />
-      <Faqs />
-      {/* <GetPrice /> */}
-      <Contact />
-      {/* <Footer /> */}
+      <Router>
+        <Route path="/" element={<HomeLayout />} />
+        <Route path="/contact-us" element={<GetInTouch />} />
+      </Router>
       <Footernew />
     </div>
   );
 };
 
-export default CarScrapWeb;
+export default Routes;
