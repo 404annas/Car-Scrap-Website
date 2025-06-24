@@ -24,7 +24,9 @@ const NavbarAno = () => {
       <nav className="p-3 px-6 sm:px-20 fixed  top-0 left-0 w-full z-50 bg-white shadow-md">
         <div className="flex items-center h-16 justify-between">
           {/* Logo */}
-          <img className="w-28  md:w-40 h-auto" src={logo} alt="Logo" />
+          <Link to="/">
+            <img className="w-28  md:w-40 h-auto" src={logo} alt="Logo" />
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-6 sand font-bold text-md">
@@ -35,9 +37,12 @@ const NavbarAno = () => {
             <p className="cursor-pointer hover:text-primary transition-all">
               Salvage tenders
             </p>
-            <p className="cursor-pointer hover:text-primary transition-all">
-              Salvage valuations
-            </p>
+            <Link
+              to="/services"
+              className="cursor-pointer hover:text-primary transition-all"
+            >
+              Services
+            </Link>
             <Link
               to="contact-us"
               className="cursor-pointer hover:text-primary transition-all"

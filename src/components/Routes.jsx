@@ -13,6 +13,7 @@ import Cards from "./Cards/Cards";
 import { CustomSection, Footernew, GetInTouch } from "./components";
 import { Routes as Router, Route } from "react-router-dom";
 import HomeLayout from "../Screen/HomeLayout";
+import { Services } from "../Screen/screen";
 
 const Routes = () => {
   return (
@@ -21,6 +22,7 @@ const Routes = () => {
       <Router>
         <Route path="/" element={<HomeLayout />} />
         <Route path="/contact-us" element={<GetInTouch />} />
+        <Route path="/services" element={<Services />} />
       </Router>
       <Footernew />
     </div>

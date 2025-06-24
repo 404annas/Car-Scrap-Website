@@ -14,7 +14,7 @@ export default function GetInTouchSection() {
   };
 
   return (
-    <div className="min-h-screen py-24 bg-[#F2F8FF] px-4">
+    <div className="min-h-screen pb-14 flex items-center justify-center bg-[#F2F8FF] px-4">
       <div className="max-w-[1200px] mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

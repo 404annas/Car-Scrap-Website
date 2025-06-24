@@ -10,6 +10,7 @@ import {
   Steps,
 } from "../components/components";
 import Contact from "../components/Contact/Contact";
+import QuerySection from "../components/QuerySection/QuerySection";
 
 const HomeLayout = () => {
   return (
@@ -17,9 +18,10 @@ const HomeLayout = () => {
       <Hero />
       <CustomSection />
       <Steps />
+      <QuerySection />
       <Brands />
-      <Map />
-      <Cards />
+      {/* <Map /> */}
+      {/* <Cards /> */}
       <Faqs />
       {/* <GetInTouch /> */}
       <Contact />
